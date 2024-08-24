@@ -20,6 +20,8 @@ $slate_900: rgb(31, 49, 79);
 $slate_500: rgb(104, 119, 141);
 $slate_300: rgb(213, 225, 239);
 
+$attribution_height: 30px;
+
 /* @media breakpoints */
 
 /** 1500pxoder schmaler */
@@ -68,7 +70,7 @@ $breakpoint-xxs: 300px !default;
   justify-content: center;
   align-items: center;
   background-color: $slate_300;
-  height: 100vh;
+  height: calc(100vh - $attribution_height);
   width: 100%;
   margin: auto;
 }
@@ -132,14 +134,20 @@ $breakpoint-xxs: 300px !default;
 }
 
 .attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Outfit";
   font-weight: 400;
   font-size: 15px;
+  height: $attribution_height;
+  background-color: $slate_300;
   color: $slate_500;
   line-height: 140%;
   letter-spacing: 0.2px;
   & a {
     text-decoration: none;
+    padding-left: 5px;
     color: $slate_900;
   }
 }
