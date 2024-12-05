@@ -15,7 +15,6 @@ The main goal of this project was to practice fundamental frontend skills by cre
 ## 🔗 Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/html-scss-YWxYKmA_o1)
-- [Live Site URL](https://glittery-bombolone-35f6bc.netlify.app)
 
 
 ## 🛠️ Built with
@@ -38,5 +37,6 @@ The main goal of this project was to practice fundamental frontend skills by cre
 
 ## ✍️ Author
 
-- Website - [My Github](https://github.com/MirkoRinke)
+- [Webiste](https://mirkorinke.dev)
+- [Github](https://github.com/MirkoRinke)
 - Frontend Mentor - [@MirkoRinke](https://www.frontendmentor.io/profile/MirkoRinke)
